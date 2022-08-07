@@ -1,0 +1,33 @@
+baseURL = 'https://lennartalff.net'
+languageCode = 'en-us'
+title = 'Thies Lennart Alff'
+theme = 'hugo-coder'
+defaultContentLanguage = 'en'
+pygmentsStyle = 'bw'
+pygmentsCodeFenes = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+enableGitInfo = true
+
+[frontmatter]
+date = ['date', 'publishDate', 'lastmod']
+lastmod = ['lastmod', ':git', 'date', 'publishDate']
+publishDate = ['publishDate', 'date']
+
+[params]
+author = 'Thies Lennart Alff'
+colorScheme = 'auto'
+hideColorSchemeToggle = false
+dateFormat = '02.01. 2006'
+
+[taxonomies]
+category = 'categories'
+series = 'series'
+tag = 'tags'
+author = 'authors'
+
+
+[[menu.main]]
+name = 'Recipes'
+weight = 1
+url = 'recipes/'
