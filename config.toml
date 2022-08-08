@@ -8,6 +8,7 @@ pygmentsCodeFenes = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 enableGitInfo = true
+enableRobotsTXT = true
 
 [frontmatter]
 date = ['date', 'publishDate', 'lastmod']
