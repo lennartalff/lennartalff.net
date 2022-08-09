@@ -20,6 +20,7 @@ author = 'Thies Lennart Alff'
 colorScheme = 'auto'
 hideColorSchemeToggle = false
 dateFormat = '02.01. 2006'
+avatarURL = 'images/avatar.jpg'
 
 [taxonomies]
 category = 'categories'
@@ -27,6 +28,17 @@ series = 'series'
 tag = 'tags'
 author = 'authors'
 
+[[params.social]]
+name = 'GitHub'
+icon = 'fa fa-2x fa-github'
+weight = 1
+url = 'https://github.com/lennartalff/'
+
+[[params.social]]
+name = 'GitLab'
+icon = 'fa fa-2x fa-gitlab'
+weight = 1
+url = 'https://gitlab.com/lennartalff/'
 
 [[menu.main]]
 name = 'Recipes'
