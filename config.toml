@@ -43,5 +43,15 @@ url = 'https://gitlab.com/lennartalff/'
 
 [[menu.main]]
 name = 'Recipes'
-weight = 1
+weight = 2
 url = 'recipes/'
+
+[[menu.main]]
+name = 'Posts'
+weight = 1
+url = 'posts/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

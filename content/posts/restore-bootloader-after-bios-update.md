@@ -1,7 +1,7 @@
 ---
 title: Restore the Linux Bootlaofter after a BIOS Update
 date: 2022-06-28
-category: Software
+categories: ['Software']
 tags: ['software', 'linux']
 ---
 
