@@ -10,7 +10,7 @@ series: ['Nextcloud Backup']
 
 The script I use to create the Nextcloud backup is the following:
 
-{% highlight sh %}
+~~~ sh
 #!/usr/bin/bash
 set -e
 
@@ -26,7 +26,7 @@ rsync -Aax --info=progress2 /var/www/nextcloud/ "$BACKUP_DIR/nextcloud-dirbkp"
 
 sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
 
-{% endhighlight %}
+~~~
 
 As one can clearly see, it is an interactive script that I invoke when updating my cloud. It performs the following steps:
 
