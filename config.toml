@@ -43,8 +43,13 @@ url = 'https://gitlab.com/lennartalff/'
 
 [[menu.main]]
 name = 'Recipes'
-weight = 2
+weight = 3
 url = 'recipes/'
+
+[[menu.main]]
+name = 'Cycling'
+weight = 2
+url = 'cycling/'
 
 [[menu.main]]
 name = 'Posts'
