@@ -1,0 +1,30 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Thies Lennart Alff'
+googleAnalytics: ''
+
+menu:
+  main:
+    - name: Home
+      url: ''
+      weight: 1
+    - name: Posts
+      url: 'posts/'
+      weight: 1
+    - name: 'Cycling'
+      url: 'cycling/'
+      weight: 2
+    - name: 'Recipes'
+      weight: 3
+      url: 'recipes/'
+
+params:
+  dateFormatList: '2006-01-02'
+  dateFormatSingle: '02. Jan 2006'
+  description: 'My personal website.'
+  footer: '&copy; [Thies Lennart Alff](https://lennartalff.net) 2021 -- {Year} | [GitHub](https://github.com/lennartalff) | [GitLab](https://gitlab.com/lennartalff)'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

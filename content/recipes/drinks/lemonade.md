@@ -6,8 +6,8 @@ date: '2022-08-07'
 ## Ingredients
 
 * 750ml soda
-* 100ml lemon juice
-* 60ml sugar cane syrup
+* 40-60ml lemon juice
+* 0-40ml sugar cane syrup
 * "some" mint
 * ice cubes
 
