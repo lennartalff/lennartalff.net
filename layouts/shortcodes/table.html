@@ -1,6 +1,6 @@
 {{ $htmlTable := .Inner | markdownify }}
 {{ $class := .Get 0 }}
 {{ $old := "<table>" }}
-{{ $new := printf "<table class=\"%s\">" $class }}
+{{ $new := printf "<table cellspacing='0' class=\"%s\">" $class }}
 {{ $htmlTable := replace $htmlTable $old $new }}
 {{ $htmlTable | safeHTML }}

@@ -1,0 +1,7 @@
+{{ $r := resources.Get (printf "plotly/%s.html" ($.Get "src")) }}
+<figure id='{{.Get "id" }}'>
+{{ $r.Content | safeHTML }}
+    {{- with (.Get "caption") -}}
+        <figcaption>{{ . }}</figcaption>
+    {{- end }}
+</figure>

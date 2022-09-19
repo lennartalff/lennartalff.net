@@ -1,0 +1,10 @@
+<figure id='{{ .Get "id" }}'>
+    <div style="display: flex;justify-content: center">
+        <img src='{{ .Get "src" }}'
+            {{- with .Get "width" }} width="{{ . }}" {{end}}
+            {{- with .Get "height" }} height="{{ . }}" {{end}} />
+    </div>
+    {{ with (.Get "caption") -}}
+        <figcaption>{{ . }}</figcaption>
+    {{- end }}
+</figure>

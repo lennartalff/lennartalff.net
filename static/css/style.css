@@ -6,17 +6,33 @@ body {
 }
 
 /* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu {
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
 .article-meta, .menu a {
   text-decoration: none;
   background: #eee;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
+
+.menu, .article-meta, footer {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 hr {
   border-style: dashed;
   color: #ddd;
@@ -29,6 +45,7 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
+
 code {
   background: #afb8c133;
   padding-left: 5px;
@@ -37,11 +54,20 @@ code {
   padding-bottom: 3px;
   border-radius: 6px
 }
-pre code { background: none; }
+
+pre code {
+  background: none;
+}
 
 /* misc elements */
-img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
+img, iframe, video {
+  max-width: 100%;
+}
+
+main {
+  hyphens: auto;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
@@ -50,9 +76,43 @@ blockquote {
 
 table {
   margin: auto;
-  border-top: 1px solid #666;
+}
+
+table thead th {
   border-bottom: 1px solid #666;
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+
+/* tr:nth-child(even) {
+  background: #f0f0f0;
+} */
+
+figcaption {
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+figure {
+  /* border: #666 solid; */
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+html, body {
+  scroll-padding-top: 100px;
+}
+
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+}
