@@ -3,6 +3,8 @@ languageCode: 'en-us'
 title: 'Thies Lennart Alff'
 googleAnalytics: ''
 
+pluralizelisttitles: 'false'
+
 menu:
   main:
     - name: Home
