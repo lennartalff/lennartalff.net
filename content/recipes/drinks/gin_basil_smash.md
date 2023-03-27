@@ -1,6 +1,6 @@
 ---
 title: Gin Basil Smash
-date: '2022-08-07'
+date: '2023-03-27'
 ---
 
 * 3cl lemon juice
